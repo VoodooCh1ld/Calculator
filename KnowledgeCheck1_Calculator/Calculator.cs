@@ -18,9 +18,11 @@ namespace KnowledgeCheck1_Calculator
             return first - second;
         }
 
+        //Multiplication functionality below, added for SD Knowledge Check #1
+
         public int Multiply(int first, int second)
         {
-            throw new NotImplementedException();
+            return first * second;
         }
 
         public double Divide(double first, double second)
